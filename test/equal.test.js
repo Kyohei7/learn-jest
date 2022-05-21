@@ -6,8 +6,8 @@ test('Test toBe', () => {
  })
 
  test('Test toEquals', () => {
-     let data = { id: 1 }
-     Object.assign(data, { name: "Rizki" })
+     let data = {id: 1}
+     Object.assign(data, {name: "Rizki"})
 
-     expect(data).toEqual({ id: 1, name: "Rizki" })
+     expect(data).toEqual({id: 1, name: "Rizki"})
   })

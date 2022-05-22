@@ -1,4 +1,3 @@
-function sum(a, b) {
-    return a + b;
-  }
-  module.exports = sum;
+export const sum = (first, second) => {
+    return first + second
+}

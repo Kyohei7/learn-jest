@@ -1,5 +1,6 @@
-const sum = require('../src/sum');
+import { sum } from "../src/sum"
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
-});
+test('sum (1, 2) must be 3', () => { 
+    const result = sum(1,2)
+    expect(result).toBe(3)    
+ })
